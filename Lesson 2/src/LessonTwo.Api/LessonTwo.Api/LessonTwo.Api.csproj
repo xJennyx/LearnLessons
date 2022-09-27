@@ -13,4 +13,8 @@
     <PackageReference Include="Serilog.Sinks.SQLite" Version="5.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LessonTwo.Core.App\LessonTwo.Core.App.csproj" />
+  </ItemGroup>
+
 </Project>
