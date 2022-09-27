@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using LessonTwo.Core.App.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LessonTwo.Api.Controllers
@@ -9,8 +9,7 @@ namespace LessonTwo.Api.Controllers
     {
         public async Task<IActionResult> GetBooks()
         {
-
-            return await Task.FromResult(Ok());
+            return await Task.FromResult(Ok(BookLibraryService.BooksLibrary));
         } 
     }
 }
