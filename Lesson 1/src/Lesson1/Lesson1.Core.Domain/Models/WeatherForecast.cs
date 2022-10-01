@@ -1,6 +1,6 @@
 using System;
 
-namespace Lesson1.Architecture
+namespace Lesson1.Core.Models
 {
     public class WeatherForecast
     {

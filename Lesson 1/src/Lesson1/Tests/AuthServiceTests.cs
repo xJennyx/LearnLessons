@@ -1,7 +1,7 @@
-using Lesson1.Architecture.Services;
+using Lesson1.Core.App.Services;
 using NUnit.Framework;
 
-namespace Tests
+namespace Lesson1.Tests
 {
     public class AuthServiceTests
     {

@@ -1,10 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Lesson1.Core.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Lesson1.Architecture.Controllers
+namespace Lesson1.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

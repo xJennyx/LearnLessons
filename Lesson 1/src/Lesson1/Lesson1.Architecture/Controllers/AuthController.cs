@@ -1,8 +1,8 @@
-﻿using Lesson1.Architecture.Models;
-using Lesson1.Architecture.Services;
+﻿using Lesson1.Core.Models;
+using Lesson1.Core.App.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Lesson1.Architecture.Controllers
+namespace Lesson1.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
