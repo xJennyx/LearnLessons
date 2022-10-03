@@ -1,4 +1,4 @@
-﻿using Lesson1.Core.Models;
+﻿using Lesson1.Core.ResourceModels;
 using Lesson1.Core.App.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,8 +8,6 @@ namespace Lesson1.API.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-
-
         [HttpPost]
         public ActionResult <bool> Login(LoginRequest request)
         {

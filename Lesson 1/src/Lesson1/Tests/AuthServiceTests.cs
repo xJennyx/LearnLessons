@@ -23,11 +23,14 @@ namespace Lesson1.Tests
             var result = service.Login(lastName);
 
             // assert
+            Assert.IsNotNull(UserSession.Sessions);
+            Assert.IsNotEmpty(UserSession.Sessions);
+            Assert.IsTrue(UserSession.Sessions.Contains(lastName));
             Assert.IsTrue(result);
         }
 
         [Test]
-        public void Login_ShouldReturnTrue()
+        public void Login_InvokeLoginTwiceForOneLastName_ShouldReturnTrue()
         {
             // arrange
             var lastName = "Иванов";
@@ -39,6 +42,9 @@ namespace Lesson1.Tests
             result = service.Login(lastName);
 
             // assert
+            Assert.IsNotNull(UserSession.Sessions);
+            Assert.IsNotEmpty(UserSession.Sessions);
+            Assert.IsTrue(UserSession.Sessions.Contains(lastName));
             Assert.IsTrue(result);
         }
 

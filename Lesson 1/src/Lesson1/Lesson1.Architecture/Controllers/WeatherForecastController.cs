@@ -1,4 +1,4 @@
-﻿using Lesson1.Core.Models;
+﻿using Lesson1.Core.ResourceModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;

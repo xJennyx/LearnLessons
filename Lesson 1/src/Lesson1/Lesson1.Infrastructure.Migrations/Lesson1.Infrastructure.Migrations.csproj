@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lesson1.Infrastructre.DB\Lesson1.Infrastructre.DB.csproj" />
+    <ProjectReference Include="..\Lesson1.Infrastructure.SQLite\Lesson1.Infrastructure.SQLite.csproj" />
+  </ItemGroup>
+
+</Project>

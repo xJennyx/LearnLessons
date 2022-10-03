@@ -1,5 +1,4 @@
-﻿
-namespace Lesson1.Core.Models
+﻿namespace Lesson1.Core.ResourceModels
 {
     public class LoginRequest
     {
